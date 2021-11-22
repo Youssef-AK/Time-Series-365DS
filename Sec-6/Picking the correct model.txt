@@ -1,0 +1,28 @@
+# Modeling
+
+Steps for most approximator: 
+
+1.   Significant coefficients
+2. Parsimonious (as simple as possible)
+    - Generally: We prefer
+        1. **Simpler model** > Complex model
+    - Significantly better predictions:
+        1. Simpler < **Complex model** 
+    
+    <aside>
+    💡 **Log-Likelihood Ratio** test (Degree of freedom)
+    
+    </aside>
+    
+    - Some total number of lags —> No **LLR**
+        
+         Information criteria [ **AIC , BIC** ]
+        
+3. Residuals ~ White-Noise
+    
+    > No patterns we have missed
+    > 
+
+- If we’re comparing two models and we want to choose the better fit, then we choose the one with ..
+    
+    Higher Log-Likelihood and lower Information Criteria.
